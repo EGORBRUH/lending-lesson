@@ -1,0 +1,62 @@
+.company {
+
+}
+.company-content {
+  display: flex;
+  flex-direction: column;
+}
+.company-title {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.company-about {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #383A4C;
+  margin-bottom: 35px;
+}
+
+.company-text_about {
+  max-width: 724px;
+  align-self: center;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #383A4C;
+  margin-bottom: 50px;
+}
+
+.company-list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  counter-reset: count 0;
+}
+
+.company-item {
+  flex-basis: 200px;
+  text-align: center;
+}
+
+
+.company-item:before {
+  content: counter(count);
+  display: block;
+  position: relative;
+  left: 20%;
+  color: white;
+  font-size: 57px;
+  border-radius: 50%;
+  line-height: 120px;
+  width: 122px;
+  height: 122px;
+  background-color: #23C7EC;
+  counter-increment: count;
+}
