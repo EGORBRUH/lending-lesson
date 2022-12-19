@@ -20,6 +20,32 @@
   text-align: center;
   color: #383A4C;
   margin-bottom: 35px;
+
+
+}
+.company-about:before {
+  content: "";
+  width: 25px;
+  border: 0.5px solid black;
+  height: 1px;
+  background-color: #000000;
+  display: inline-block;
+  vertical-align: center;
+  margin-bottom: 5px;
+  margin-right: 21px;
+
+}
+
+.company-about:after {
+  content: "";
+  width: 25px;
+  border: 0.5px solid black;
+  height: 1px;
+  background-color: #000000;
+  display: inline-block;
+  vertical-align: center;
+  margin-bottom: 5px;
+  margin-left: 21px;
 }
 
 .company-text_about {
@@ -59,4 +85,89 @@
   height: 122px;
   background-color: #23C7EC;
   counter-increment: count;
+}
+
+
+@media (max-width : 1024px) {
+  .company-list {
+    display: flex;
+  }
+
+  .company-item {
+    text-align: center;
+  }
+
+  .company-item:before{
+    left: 20%;
+    margin-bottom: 20px;
+  }
+
+  .company-item-text {
+    max-width: 200px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .company-text_about {
+    margin-bottom: 30px;
+  }
+}
+
+
+
+@media (max-width : 768px) {
+  .company-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+  }
+  .company-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .company-about {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+
+@media (max-width: 320px) {
+  .company-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #383A4C;
+  }
+  .company-about {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #383A4C;
+  }
+  .company-text_about {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #383A4C;
+  }
+  .company-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 26px;
+  }
+  .company-item:before {
+    left: 20%;
+    margin-bottom: 26px;
+  }
 }

@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  padding-bottom: 134px;
+  margin-bottom: 134px;
 }
 
 .background-header {
@@ -60,3 +60,81 @@
   font-size: 16px;
   line-height: 19px;
 }
+
+
+
+
+
+
+@media (max-width:1024px) {
+
+}
+@media (max-width : 768px) {
+
+}
+
+@media(max-width : 533px) {
+  .header {
+    margin-bottom: 100px;
+  }
+}
+
+@media(max-width : 360px) {
+  .header {
+    margin-bottom: 170px;
+  }
+}
+
+@media (max-width:320px) {
+  .header {
+    margin-bottom: 65px;
+  }
+  .background-header {
+    background-position: center center;
+    min-height: 532px;
+    position: absolute;
+  }
+  .background-header:after {
+    min-height: 532px;
+    position: absolute;
+  }
+  .container  {
+    padding: 0 15px;
+  }
+  .header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+  .header-link {
+    color: transparent;
+    background-image: url(../image/phone-2.svg);
+    display: block;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: right center;
+  }
+  .header-text {
+    color: transparent;
+    border: none;
+  }
+  .header-logo {
+    width: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
