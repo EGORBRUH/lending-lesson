@@ -59,6 +59,121 @@
 }
 
 
+@media (max-width: 768px) {
+  .footer-logo {
+    width: 40px;
+    height: 40px;
+  }
+  .footer-link {
+    font-size: 18px;
+  }
+  .footer-text {
+    font-size: 15px;
+    width: 125px
+  }
+}
+
+
+@media (max-width: 605px) {
+  .footer-logo {
+    width: 35px;
+    flex-basis: 30px;
+    margin-right: 10px;
+  }
+
+  .footer-group_one {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 120px;
+  }
+  .footer-author {
+    flex-basis: 150px;
+  }
+  .footer-link {
+    width: 400px;
+    font-size: 15px;
+  }
+  .footer-text {
+    font-size: 10px;
+    width: 85px
+  }
+  .footer-link {
+    font-size: 10px;
+  }
+}
+
+
+@media  (max-width: 360px) {
+  .footer-group_one {
+    display: flex;
+    flex-basis: 185px;
+    justify-content: center;
+  }
+  .footer-link {
+    color: transparent;
+    /*background-image: url(../image/phone-2.svg);*/
+    /*display: block;*/
+    /*background-size: 50px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: right center;*/
+  }
+  .footer-link:after {
+    content: url("../image/phone-2.svg");
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    width: 50px;
+    height: 50px;
+
+  }
+  .footer-logo {
+    width: 30px;
+
+  }
+  .footer-text {
+    display: none;
+  }
+  .footer-author {
+    position: absolute;
+    background-color: #2A2C3F;
+    display: block;
+    width: 100%;
+    bottom: -25px;
+    left: 0;
+    z-index: 100;
+  }
+  .footer-author:before {
+    content: "";
+    position: absolute;
+    color: transparent;
+    background-color: #2A2C3F;
+    left: -15px;
+    width: 360px;
+    height: 50px;
+  }
+  .footer-author:after {
+    content: "Сделано Ивановым Иваном";
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    left: 85px;
+    top: 15px;
+  }
+
+
+  .footer-block {
+    width: 100%;
+    background-color: #2A2C3F;;
+  }
+
+
+}
+
+
+
+
+
+
 @media  (max-width: 320px) {
   .footer-link {
     color: transparent;
