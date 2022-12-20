@@ -1,6 +1,7 @@
 .header {
+  width: 100%;
   position: relative;
-  margin-bottom: 134px;
+  margin-bottom: 124px;
 }
 
 .background-header {
@@ -12,7 +13,7 @@
   top: 0;
   background-repeat: no-repeat;
   background-position:center center;
-  -webkit-background-size: cover;
+
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -27,6 +28,9 @@
   background: rgba(47, 50, 75, 0.85);;
 }
 .header-nav {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,29 +40,36 @@
 
 
 .header-social_group {
-  color: #ffffff;
-  z-index: 2
+
+  z-index: 2;
+
 
 }
 .header-logo {
   z-index: 2;
+
 }
 .header-link {
   color: #ffffff;
+  font-style: normal;
   font-weight: 400;
   font-size: 23.85px;
-  line-height: 28px;
+  line-height: 32px;
+  text-align: center;
   text-decoration: none;
 
 }
 .header-text {
+  color: #FFFFFF;
   width: 135px;
   text-align: center;
-  margin: 0 auto;
-  border-bottom: 1px solid white;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 23px;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+
 }
 
 
@@ -74,15 +85,11 @@
 }
 
 @media(max-width : 533px) {
-  .header {
-    margin-bottom: 100px;
-  }
+
 }
 
 @media(max-width : 360px) {
-  .header {
-    margin-bottom: 170px;
-  }
+
 }
 
 @media (max-width:320px) {

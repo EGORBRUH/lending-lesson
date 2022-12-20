@@ -2,23 +2,36 @@
   background:  #2F324B;
   position: relative;
 }
-.footer-content {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+.footer-social{
+  min-height: 158px;
 }
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
+}
 .footer-group_one {
   display: flex;
-  flex-wrap: wrap;
+  flex-basis: 300px;
+  justify-content: end;
   align-items: center;
+  transform: translate(-3px, 44px);
 }
 .footer-group_text {
-  flex-basis: 127px;
   font-weight: 500;
   font-size: 12px;
-  line-height: 17px;
+  line-height: 16px;
   color: #FFFFFF;
+}
+
+.footer-group_text_company {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+  transform: translate(3px, -1px);
 }
 
 .footer-logo {
@@ -26,27 +39,26 @@
 }
 
 .footer-author {
-  flex-basis: 200px;
-  text-align: center;
-  align-self: center;
+  display: flex;
+  flex-basis: 300px;
   font-weight: 500;
   font-size: 12px;
   line-height: 17px;
   color: #FFFFFF;
+  transform: translate(65px, 45px);
 }
 
 .footer-link {
   color: #ffffff;
   font-weight: 400;
   font-size: 23.85px;
-  line-height: 28px;
+  line-height: 35px;
   text-decoration: none;
 }
 
 .footer-text {
   width: 135px;
   text-align: center;
-  margin: 0 auto;
   color: #FFFFFF;
   border-bottom: 1px solid white;
   font-weight: 400;
@@ -55,7 +67,12 @@
 }
 
 .footer-social_group {
-  align-self: center;
+  flex-basis: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  transform: translate(-37px, 42px);
 }
 
 

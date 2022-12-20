@@ -1,0 +1,37 @@
+/* roboto-regular - cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+  url('../fonts/roboto-v30-cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/roboto-v30-cyrillic-regular.woff') format('woff'); /* Modern Browsers */
+}
+/* roboto-500 - cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+  url('../fonts/roboto-v30-cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/roboto-v30-cyrillic-500.woff') format('woff'); /* Modern Browsers */
+}
+/* roboto-700 - cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+  url('../fonts/roboto-v30-cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/roboto-v30-cyrillic-700.woff') format('woff'); /* Modern Browsers */
+
+}
+/* roboto-900 - cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+  url('../fonts/roboto-v30-cyrillic-900.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/roboto-v30-cyrillic-900.woff') format('woff'); /* Modern Browsers */
+}

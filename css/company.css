@@ -1,15 +1,18 @@
 .company {
-
+  min-height: 300px;
 }
 .company-content {
   display: flex;
   flex-direction: column;
 }
 .company-title {
+  padding-top: 42px;
+  font-style: normal;
   font-weight: 700;
   font-size: 35px;
   line-height: 41px;
   text-align: center;
+  color: #383A4C;
   margin-bottom: 25px;
 }
 
@@ -25,27 +28,27 @@
 }
 .company-about:before {
   content: "";
-  width: 25px;
+  width: 43px;
   border: 0.5px solid black;
-  height: 1px;
+  height: 0.5px;
   background-color: #000000;
   display: inline-block;
   vertical-align: center;
   margin-bottom: 5px;
-  margin-right: 21px;
+  margin-right: 23px;
 
 }
 
 .company-about:after {
   content: "";
-  width: 25px;
+  width: 43px;
   border: 0.5px solid black;
-  height: 1px;
+  height: 0.5px;
   background-color: #000000;
   display: inline-block;
   vertical-align: center;
   margin-bottom: 5px;
-  margin-left: 21px;
+  margin-left: 23px;
 }
 
 .company-text_about {
@@ -56,35 +59,50 @@
   font-size: 18px;
   line-height: 25px;
   color: #383A4C;
-  margin-bottom: 50px;
+  margin-bottom: 59px;
 }
 
 .company-list {
   display: flex;
-  justify-content: space-evenly;
+  flex-basis: 600px;
+  column-gap: 46px;
+  justify-content: center;
   list-style: none;
   counter-reset: count 0;
+  margin: 0;
 }
 
 .company-item {
   flex-basis: 200px;
   text-align: center;
+  position: relative;
+}
+.company-item-text {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  row-gap: 20px;
+}
+.company-item li {
+  margin: 0;
 }
 
 
 .company-item:before {
   content: counter(count);
-  display: block;
+  display: inline-block;
   position: relative;
-  left: 20%;
+  left: 0%;
   color: white;
-  font-size: 57px;
+  font-size: 55px;
   border-radius: 50%;
-  line-height: 120px;
+  line-height: 135px;
   width: 122px;
   height: 122px;
   background-color: #23C7EC;
   counter-increment: count;
+  margin-bottom: 14px;
 }
 
 
@@ -104,7 +122,6 @@
 
   .company-item-text {
     max-width: 200px;
-    text-align: center;
     margin: 0 auto;
   }
   .company-text_about {
